@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Anastasia Rivera's CV</title>
+    <style>
+        body {
+            background-color: #ACADBC;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .section {
+            background-color: #9B9ECE;
+            border-radius: 5px;
+            padding: 10px 20px;
+            margin: 10px;
+            color: white;
+        }
+
+        .full-width {
+            width: calc(100% - 20px);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .half-width {
+            width: calc(46% - 20px);
+        }
+
+        .name-header {
+            background-color: #473BF0;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-size: 2em;
+            border-radius: 5px;
+            margin: 10px;
+        }
+
+        .personal-details {
+            background-color: #6665DD;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .right-aligned {
+            text-align: right;
+        }
+
+        .left-aligned {
+            text-align: left;
+        }
+
+        .personal-image {
+            height: 200px;
+            width: 200px;
+            border-radius: 5px;
+        }
+
+        .contact-info {
+            text-align: left;
+        }
+
+        .job-title {
+            font-weight: bold;
+            margin-top: 0;
+        }
+
+        .job-duration {
+            font-style: italic;
+            margin-bottom: 5px;
+        }
+
+        .job-description {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="name-header full-width">
+        Anastasia Rivera
+    </div>
+
+    <div class="container">
+        <div class="section personal-details full-width">
+            <div class="contact-info">
+                <h2>Personal Details</h2>
+                <p>Email: anastasia.rivera@example.com</p>
+                <p>Phone: +1 234 567 8900</p>
+                <p>Address: 123 Main St, Hometown, HT 12345</p>
+                <!-- Additional personal details content goes here -->
+            </div>
+            <img src="AnastasiaRiveraPersona.png" alt="Anastasia Rivera" class="personal-image">
+        </div>
+
+        <div class="section left-aligned half-width">
+            <h2>Introduction</h2>
+            <p>Anastasia is a 19-year-old university student in her second year. Born and raised in a busy city, she is currently enjoying the peaceful life at Keele, where she is undertaking her degree. Anastasia has always been interested in computers and technology, so hopes that she can help contribute to society by developing new and innovative software.</p>
+        </div>
+
+        <div class="section right-aligned half-width">
+            <h2>Education History</h2>
+            <p><strong>Keele University, UK</strong><br>
+               Degree Title: BSc Computer Science (Software Engineering)<br>
+               Predicted Grade: 2:1<br><br>
+               <strong>College</strong><br>
+               Subjects: Computer Science, Psychology, Biology<br>
+               Grades: ABC<br><br>
+               <strong>High School</strong><br>
+               Grades: Two Grade 8/A*, Five Grade 7/A, Three Grade 6/B, and One Grade 5/C<br>
+               Grades of Note: Maths (8/A*), Computer Science (7/A), and English Language (6/B)</p>
+        </div>
+
+        <div class="section right-aligned half-width">
+            <h2>Skills</h2>
+            <p>Programming Languages: Java, Python, C++<br>
+               Web Development: HTML, CSS, JavaScript<br>
+               Database Management: SQL<br>
+               Operating Systems: Windows, Linux</p>
+        </div>
+
+        <div class="section left-aligned half-width">
+            <h2>Work Experience</h2>
+            <div>
+                <p class="job-title">Trainee Teaching Assistant</p>
+                <p class="job-duration">September 2023 - March 2024</p>
+                <p class="job-description">Helped students with their work, Assisted the teacher in creating lesson plans, Managed the classroom when the teacher was absent.</p>
+            </div>
+            <div>
+                <p class="job-title">Shop Assistant at H&M</p>
+                <p class="job-duration">May 2022 - June 2024</p>
+                <p class="job-description">Gained Customer Service Skills, Learnt to work in a team, Worked closely with customers to ensure they had the best experience they could.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
